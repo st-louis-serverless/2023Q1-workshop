@@ -6,7 +6,7 @@ import { BlockPublicAccess, Bucket, BucketAccessControl, BucketProps } from 'aws
 const lab1BucketProps: BucketProps = {
   accessControl: BucketAccessControl.PRIVATE,
   blockPublicAccess: BlockPublicAccess.BLOCK_ALL,
-  versioned: true,
+  // versioned: true,
   removalPolicy: RemovalPolicy.DESTROY, // when stack is destroyed, non-empty bucket will be, too
 }
 
@@ -16,12 +16,16 @@ export class Lab1CdkStack extends cdk.Stack {
 
     const bucket = new Bucket(this, 'stls-workshop-bucket', lab1BucketProps)
 
-    new CfnOutput(this, 'bucket-arn', {
+    new CfnOutput(this, 'lab1-bucket-arn', {
       value: bucket.bucketArn,
     })
 
-    new CfnOutput(this, 'bucket-name', {
+    new CfnOutput(this, 'lab1-bucket-name', {
       value: bucket.bucketName,
+    })
+
+    new CfnOutput(this, 'lab1-bucket-regional-domain-name', {
+      value: bucket.bucketRegionalDomainName,
     })
   }
 }
