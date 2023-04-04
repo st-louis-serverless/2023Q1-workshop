@@ -1,0 +1,41 @@
+###
+POST {{api_lambda_url}}?showAll=true
+Accept: application/json
+Content-Type: application/json
+
+{
+  "order": {
+    "orderId": "P12345",
+    "customerId": "abc-1234",
+    "orderDate": "2023-03-31",
+    "cart": {
+      "lineItems": [
+        {
+          "productId": "P11101",
+          "productName": "Ultra Smooth Black pen",
+          "qty": 10,
+          "salePrice": 0.99
+        },
+        {
+          "productId": "N99901",
+          "productName": "Writer's Deluxe Notebook",
+          "qty": 5,
+          "salePrice": 9.99
+        },
+        {
+          "productId": "YH87659",
+          "productName": "Stink-free Yellow Highlighter",
+          "qty": 2,
+          "salePrice": 1.99
+        }
+      ]
+    },
+    "shipping": {
+      "contactName": "Jane Smith",
+      "streetAddress": "123 Main St",
+      "city": "Windy City",
+      "state": "IL",
+      "zipcode": "12345"
+    }
+  }
+}

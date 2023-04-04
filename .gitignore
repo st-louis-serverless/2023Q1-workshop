@@ -1,0 +1,15 @@
+.idea
+.vscode
+
+**/*.js
+**/*.d.ts
+**/node_modules
+**/!jest.config.js
+
+# CDK asset staging directory
+**/.cdk.staging
+**/cdk.out
+
+**/http-client.private.env.json
+
+.exports.sh
