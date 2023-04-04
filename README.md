@@ -46,34 +46,20 @@ A _lesson_ is a combination of theory presentation and practical lab time. The
 presentation lays out a few key aspects of the topic, but will obviously cover
 only a small amount of detail.
 
-The idea is to show you what's available and how it can be used, not to make you an 
-expert at using it. 
-
-Lessons will vary in length, but a canonical lesson might be:
-- Topic Introduction (presentation + demos; 15 min)
-- Lab Time (10 min)
-- Lab Walkthrough (5 min)
+The idea is to show you a little of what's available and how it can be used, 
+not to make you an expert at using it or understanding all AWS serverless services.
 
 The overall workshop structure will be:
 
-- Introductions (5 min)
-- Workshop Objectives and Lab Application Overview (5 min)
-- Serverless Introduction (lecture; 15 min) 
-- Lab Lessons
-  1. AWS CDK (~15 min)
-  2. Compute: AWS Lambda, Fargate (~45 min)
-  3. SQS, EventBridge (~30 min)
-  4. SNS, Step Functions (~30 min)
-  5. DynamoDB, Aurora Serverless (~30 min)
-  - Q&A and Wrap-up (15 min)
-  - Resources for continued learning
-
-- Tools / Services Covered
-  - AWS CDK (~15 min) 
-  - Compute: AWS Lambda, Fargate (~45 min)
-  - SQS, EventBridge (~30 min)
-  - SNS, Step Functions (~30 min)
-  - DynamoDB, Aurora Serverless (~30 min)
+### Agenda
+  1. Introductions
+  2. What is serverless
+  3. AWS CDK (Lab 1)
+  4. AWS Lambda (Lab 2)
+  5. Lambda triggers (Lab 3)
+  6. Step Functions (no lab)
+  7. Serverless Databases (Lab 4)
+  8. Q&A and Wrap-up
 
 > Note: Breaks are not scheduled. Take them as you need them.
 
