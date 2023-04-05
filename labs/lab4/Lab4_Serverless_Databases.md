@@ -14,7 +14,7 @@ We'll create a DynamoDB database table. The goal is to show how to set up a Dyna
 
 ### Aurora Serverless
 
-Aurora Serverless is a pay-as-you-go Aurora database, using either POstgres or MySQL compatibility.
+Aurora Serverless is a pay-as-you-go Aurora database, using either Postgres or MySQL compatibility.
 
 ## Labs
 

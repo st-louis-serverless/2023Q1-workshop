@@ -334,7 +334,7 @@ featureB with fix makes it prod and works as intended
     7       <== dev, qa, stage, prod             
 ```
 
-How do we create aliases? We can create
+How do we create aliases? We can create aliases to point to versions.
 
 ### Labs
 
